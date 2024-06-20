@@ -9519,6 +9519,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "60061152-e96e-4355-a908-83312541e620")
 		)
@@ -9646,6 +9655,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 43.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24dad608-a880-4777-9795-073266b79a2a")
 		)
@@ -9707,6 +9725,15 @@
 		)
 		(property "Description" "HDMI type A connector"
 			(at 83.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "609-4614-1-ND"
+			(at 83.82 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,6 +9998,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "732-5960-1-ND"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "94951507-5604-41f4-96c8-adeb3cc41c0f")
 		)
@@ -10060,6 +10096,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 43.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
 			(at 43.18 83.82 0)
 			(effects
 				(font
@@ -10666,53 +10711,62 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
-			(uuid "60061152-e96e-4355-a908-83312541e620")
+			(uuid "60061152-e96e-4355-a908-83312541e621")
 		)
 		(pin "5"
-			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8ef6")
+			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8ef7")
 		)
 		(pin "6"
-			(uuid "9353168a-b770-4c33-8760-b4ab119e6a14")
+			(uuid "9353168a-b770-4c33-8760-b4ab119e6a15")
 		)
 		(pin "12"
-			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b16885")
+			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b16886")
 		)
 		(pin "4"
-			(uuid "b5a00923-59e7-42e1-aa17-e5582fc57336")
+			(uuid "b5a00923-59e7-42e1-aa17-e5582fc57337")
 		)
 		(pin "2"
-			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b446")
+			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b447")
 		)
 		(pin "11"
-			(uuid "0d7e4984-a0a5-4342-937d-aad423142f8e")
+			(uuid "0d7e4984-a0a5-4342-937d-aad423142f8f")
 		)
 		(pin "1"
-			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207d8")
+			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207d9")
 		)
 		(pin "9"
-			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b53b")
+			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b53c")
 		)
 		(pin "13"
-			(uuid "e0725702-c894-42eb-8d87-67a5ef802a32")
+			(uuid "e0725702-c894-42eb-8d87-67a5ef802a33")
 		)
 		(pin "15"
-			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb37")
+			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb38")
 		)
 		(pin "8"
-			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb0b")
+			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb0c")
 		)
 		(pin "14"
-			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af574")
+			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af575")
 		)
 		(pin "3"
-			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0e6")
+			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0e7")
 		)
 		(pin "16"
-			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb476")
+			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb477")
 		)
 		(pin "7"
-			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df3")
+			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df4")
 		)
 		(instances
 			(project "VersaTermMinus"
@@ -10741,7 +10795,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002AK"
 			(at 59.69 179.07 90)
 			(effects
 				(font
@@ -11332,6 +11386,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "450-1157-ND"
+			(at 161.29 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc2d7d7e-64c1-460b-94ab-44e76837d193")
 		)
@@ -11566,7 +11629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002AK"
 			(at 45.72 140.9699 0)
 			(effects
 				(font
@@ -11823,53 +11886,62 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
-			(uuid "60061152-e96e-4355-a908-83312541e620")
+			(uuid "60061152-e96e-4355-a908-83312541e622")
 		)
 		(pin "5"
-			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8ef6")
+			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8ef8")
 		)
 		(pin "6"
-			(uuid "9353168a-b770-4c33-8760-b4ab119e6a14")
+			(uuid "9353168a-b770-4c33-8760-b4ab119e6a16")
 		)
 		(pin "12"
-			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b16885")
+			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b16887")
 		)
 		(pin "4"
-			(uuid "b5a00923-59e7-42e1-aa17-e5582fc57336")
+			(uuid "b5a00923-59e7-42e1-aa17-e5582fc57338")
 		)
 		(pin "2"
-			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b446")
+			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b448")
 		)
 		(pin "11"
-			(uuid "0d7e4984-a0a5-4342-937d-aad423142f8e")
+			(uuid "0d7e4984-a0a5-4342-937d-aad423142f90")
 		)
 		(pin "1"
-			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207d8")
+			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207da")
 		)
 		(pin "9"
-			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b53b")
+			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b53d")
 		)
 		(pin "13"
-			(uuid "e0725702-c894-42eb-8d87-67a5ef802a32")
+			(uuid "e0725702-c894-42eb-8d87-67a5ef802a34")
 		)
 		(pin "15"
-			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb37")
+			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb39")
 		)
 		(pin "8"
-			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb0b")
+			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb0d")
 		)
 		(pin "14"
-			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af574")
+			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af576")
 		)
 		(pin "3"
-			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0e6")
+			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0e8")
 		)
 		(pin "16"
-			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb476")
+			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb478")
 		)
 		(pin "7"
-			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df3")
+			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df5")
 		)
 		(instances
 			(project "VersaTermMinus"
@@ -11935,53 +12007,62 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
-			(uuid "60061152-e96e-4355-a908-83312541e620")
+			(uuid "60061152-e96e-4355-a908-83312541e623")
 		)
 		(pin "5"
-			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8ef6")
+			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8ef9")
 		)
 		(pin "6"
-			(uuid "9353168a-b770-4c33-8760-b4ab119e6a14")
+			(uuid "9353168a-b770-4c33-8760-b4ab119e6a17")
 		)
 		(pin "12"
-			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b16885")
+			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b16888")
 		)
 		(pin "4"
-			(uuid "b5a00923-59e7-42e1-aa17-e5582fc57336")
+			(uuid "b5a00923-59e7-42e1-aa17-e5582fc57339")
 		)
 		(pin "2"
-			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b446")
+			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b449")
 		)
 		(pin "11"
-			(uuid "0d7e4984-a0a5-4342-937d-aad423142f8e")
+			(uuid "0d7e4984-a0a5-4342-937d-aad423142f91")
 		)
 		(pin "1"
-			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207d8")
+			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207db")
 		)
 		(pin "9"
-			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b53b")
+			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b53e")
 		)
 		(pin "13"
-			(uuid "e0725702-c894-42eb-8d87-67a5ef802a32")
+			(uuid "e0725702-c894-42eb-8d87-67a5ef802a35")
 		)
 		(pin "15"
-			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb37")
+			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb3a")
 		)
 		(pin "8"
-			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb0b")
+			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb0e")
 		)
 		(pin "14"
-			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af574")
+			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af577")
 		)
 		(pin "3"
-			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0e6")
+			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0e9")
 		)
 		(pin "16"
-			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb476")
+			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb479")
 		)
 		(pin "7"
-			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df3")
+			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df6")
 		)
 		(instances
 			(project "VersaTermMinus"
@@ -12010,7 +12091,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002AK"
 			(at 69.85 173.99 90)
 			(effects
 				(font
@@ -12264,53 +12345,62 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
-			(uuid "60061152-e96e-4355-a908-83312541e620")
+			(uuid "60061152-e96e-4355-a908-83312541e624")
 		)
 		(pin "5"
-			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8ef6")
+			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8efa")
 		)
 		(pin "6"
-			(uuid "9353168a-b770-4c33-8760-b4ab119e6a14")
+			(uuid "9353168a-b770-4c33-8760-b4ab119e6a18")
 		)
 		(pin "12"
-			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b16885")
+			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b16889")
 		)
 		(pin "4"
-			(uuid "b5a00923-59e7-42e1-aa17-e5582fc57336")
+			(uuid "b5a00923-59e7-42e1-aa17-e5582fc5733a")
 		)
 		(pin "2"
-			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b446")
+			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b44a")
 		)
 		(pin "11"
-			(uuid "0d7e4984-a0a5-4342-937d-aad423142f8e")
+			(uuid "0d7e4984-a0a5-4342-937d-aad423142f92")
 		)
 		(pin "1"
-			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207d8")
+			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207dc")
 		)
 		(pin "9"
-			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b53b")
+			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b53f")
 		)
 		(pin "13"
-			(uuid "e0725702-c894-42eb-8d87-67a5ef802a32")
+			(uuid "e0725702-c894-42eb-8d87-67a5ef802a36")
 		)
 		(pin "15"
-			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb37")
+			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb3b")
 		)
 		(pin "8"
-			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb0b")
+			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb0f")
 		)
 		(pin "14"
-			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af574")
+			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af578")
 		)
 		(pin "3"
-			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0e6")
+			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0ea")
 		)
 		(pin "16"
-			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb476")
+			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb47a")
 		)
 		(pin "7"
-			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df3")
+			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df7")
 		)
 		(instances
 			(project "VersaTermMinus"
@@ -12366,6 +12456,15 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
+			(at 39.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "641-1762-1-ND"
 			(at 39.37 24.13 0)
 			(effects
 				(font
@@ -13177,6 +13276,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 43.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65b4f51a-74c5-40ec-82ac-deb83e3a7450")
 		)
@@ -13247,53 +13355,62 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
-			(uuid "60061152-e96e-4355-a908-83312541e620")
+			(uuid "60061152-e96e-4355-a908-83312541e625")
 		)
 		(pin "5"
-			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8ef6")
+			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8efb")
 		)
 		(pin "6"
-			(uuid "9353168a-b770-4c33-8760-b4ab119e6a14")
+			(uuid "9353168a-b770-4c33-8760-b4ab119e6a19")
 		)
 		(pin "12"
-			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b16885")
+			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b1688a")
 		)
 		(pin "4"
-			(uuid "b5a00923-59e7-42e1-aa17-e5582fc57336")
+			(uuid "b5a00923-59e7-42e1-aa17-e5582fc5733b")
 		)
 		(pin "2"
-			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b446")
+			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b44b")
 		)
 		(pin "11"
-			(uuid "0d7e4984-a0a5-4342-937d-aad423142f8e")
+			(uuid "0d7e4984-a0a5-4342-937d-aad423142f93")
 		)
 		(pin "1"
-			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207d8")
+			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207dd")
 		)
 		(pin "9"
-			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b53b")
+			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b540")
 		)
 		(pin "13"
-			(uuid "e0725702-c894-42eb-8d87-67a5ef802a32")
+			(uuid "e0725702-c894-42eb-8d87-67a5ef802a37")
 		)
 		(pin "15"
-			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb37")
+			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb3c")
 		)
 		(pin "8"
-			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb0b")
+			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb10")
 		)
 		(pin "14"
-			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af574")
+			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af579")
 		)
 		(pin "3"
-			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0e6")
+			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0eb")
 		)
 		(pin "16"
-			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb476")
+			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb47b")
 		)
 		(pin "7"
-			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df3")
+			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df8")
 		)
 		(instances
 			(project "VersaTermMinus"
@@ -13351,6 +13468,15 @@
 			)
 		)
 		(property "Description" "9-pin female receptacle socket D-SUB connector"
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "AE10968-ND"
 			(at 266.7 138.43 0)
 			(effects
 				(font
@@ -13806,6 +13932,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "48fe102c-9d6f-4e0f-8328-eee183dae109")
 		)
@@ -13906,7 +14041,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002AK"
 			(at 73.66 147.3201 0)
 			(effects
 				(font
@@ -14100,6 +14235,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
 			(at 115.57 176.53 0)
 			(effects
 				(font
@@ -14378,6 +14522,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "L77HDE15SD1CH4FVGA-ND"
+			(at 259.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "711b819f-01fd-4475-aca7-4b580cb18496")
 		)
@@ -14487,53 +14640,62 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
-			(uuid "60061152-e96e-4355-a908-83312541e620")
+			(uuid "60061152-e96e-4355-a908-83312541e626")
 		)
 		(pin "5"
-			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8ef6")
+			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8efc")
 		)
 		(pin "6"
-			(uuid "9353168a-b770-4c33-8760-b4ab119e6a14")
+			(uuid "9353168a-b770-4c33-8760-b4ab119e6a1a")
 		)
 		(pin "12"
-			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b16885")
+			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b1688b")
 		)
 		(pin "4"
-			(uuid "b5a00923-59e7-42e1-aa17-e5582fc57336")
+			(uuid "b5a00923-59e7-42e1-aa17-e5582fc5733c")
 		)
 		(pin "2"
-			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b446")
+			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b44c")
 		)
 		(pin "11"
-			(uuid "0d7e4984-a0a5-4342-937d-aad423142f8e")
+			(uuid "0d7e4984-a0a5-4342-937d-aad423142f94")
 		)
 		(pin "1"
-			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207d8")
+			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207de")
 		)
 		(pin "9"
-			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b53b")
+			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b541")
 		)
 		(pin "13"
-			(uuid "e0725702-c894-42eb-8d87-67a5ef802a32")
+			(uuid "e0725702-c894-42eb-8d87-67a5ef802a38")
 		)
 		(pin "15"
-			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb37")
+			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb3d")
 		)
 		(pin "8"
-			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb0b")
+			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb11")
 		)
 		(pin "14"
-			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af574")
+			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af57a")
 		)
 		(pin "3"
-			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0e6")
+			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0ec")
 		)
 		(pin "16"
-			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb476")
+			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb47c")
 		)
 		(pin "7"
-			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df3")
+			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df9")
 		)
 		(instances
 			(project "VersaTermMinus"
@@ -14589,6 +14751,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CKN9559-ND"
 			(at 110.49 149.86 0)
 			(effects
 				(font
@@ -14873,53 +15044,62 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
-			(uuid "60061152-e96e-4355-a908-83312541e620")
+			(uuid "60061152-e96e-4355-a908-83312541e627")
 		)
 		(pin "5"
-			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8ef6")
+			(uuid "ebbdb443-921b-4cde-85f7-55b4e02d8efd")
 		)
 		(pin "6"
-			(uuid "9353168a-b770-4c33-8760-b4ab119e6a14")
+			(uuid "9353168a-b770-4c33-8760-b4ab119e6a1b")
 		)
 		(pin "12"
-			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b16885")
+			(uuid "d3a0fa0c-bc53-4837-af12-f40c81b1688c")
 		)
 		(pin "4"
-			(uuid "b5a00923-59e7-42e1-aa17-e5582fc57336")
+			(uuid "b5a00923-59e7-42e1-aa17-e5582fc5733d")
 		)
 		(pin "2"
-			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b446")
+			(uuid "e1d6cb07-365a-4b63-a7ac-dc2c2434b44d")
 		)
 		(pin "11"
-			(uuid "0d7e4984-a0a5-4342-937d-aad423142f8e")
+			(uuid "0d7e4984-a0a5-4342-937d-aad423142f95")
 		)
 		(pin "1"
-			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207d8")
+			(uuid "b3af1f4c-2b44-4ed8-bdf4-98a53d8207df")
 		)
 		(pin "9"
-			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b53b")
+			(uuid "c20829bd-1c0d-453b-8dd0-4ab13e08b542")
 		)
 		(pin "13"
-			(uuid "e0725702-c894-42eb-8d87-67a5ef802a32")
+			(uuid "e0725702-c894-42eb-8d87-67a5ef802a39")
 		)
 		(pin "15"
-			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb37")
+			(uuid "caac0166-8e8b-4ef0-9c34-f6f36838cb3e")
 		)
 		(pin "8"
-			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb0b")
+			(uuid "81ebbf72-dbcf-43e0-ba5d-a81828cbbb12")
 		)
 		(pin "14"
-			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af574")
+			(uuid "a192703f-0a2f-4343-bfc2-56d08e8af57b")
 		)
 		(pin "3"
-			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0e6")
+			(uuid "9bb636f9-22c3-4426-90ec-a17daecdc0ed")
 		)
 		(pin "16"
-			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb476")
+			(uuid "ae71173b-b670-4d46-ad3f-a1915bdfb47d")
 		)
 		(pin "7"
-			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840df3")
+			(uuid "661a407b-d3c1-4aca-ade9-1dc93c840dfa")
 		)
 		(instances
 			(project "VersaTermMinus"
@@ -15611,7 +15791,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002AK"
 			(at 104.14 170.18 90)
 			(effects
 				(font
@@ -15828,7 +16008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002AK"
 			(at 62.23 138.4301 0)
 			(effects
 				(font
@@ -16082,6 +16262,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "732-5960-1-ND"
+			(at 26.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "724444ac-a54a-49c6-8381-445c7372978c")
 		)
@@ -16221,6 +16410,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 198.12 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "450-1157-ND"
 			(at 198.12 21.59 0)
 			(effects
 				(font
