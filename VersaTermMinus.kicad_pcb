@@ -408,7 +408,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002AK"
 			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(uuid "83e10ada-755f-4c1d-85df-2f28cb466572")
@@ -961,6 +961,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8f4c30b3-7f1c-42d0-bf8a-533607ca8d3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0b32086-4f30-4ffa-805b-7b03aa4009f3")
 			(effects
 				(font
 					(size 1 1)
@@ -1622,6 +1635,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "609-4614-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c3c3d85-37f0-4011-930e-cd1afbd88625")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "HDMI*A*")
 		(path "/08ecca80-0a7a-4415-bb52-36d5bdee4743")
 		(sheetname "Root")
@@ -2148,6 +2174,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c06d339a-6444-4696-89c3-ff07355de26f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/8e13d856-b2e5-4c02-9e05-8a400d5d585c")
 		(sheetname "Root")
@@ -2333,7 +2372,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002AK"
 			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(uuid "9799f298-1330-4e72-993c-a0d089326b2f")
@@ -2657,8 +2696,21 @@
 				)
 			)
 		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27ebdb5d-84ad-4a20-bda3-84b68004d3a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex*")
-		(path "/51b301ae-b488-40b5-bbb9-36cd8a410317")
+		(path "/7ff3366d-b042-4888-a6a3-86a39dc9853b")
 		(sheetname "Root")
 		(sheetfile "VersaTermMinus.kicad_sch")
 		(attr smd)
@@ -3268,6 +3320,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "AE10968-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b6d019e-4532-433d-8754-b04b3c5504c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DSUB*Female*")
 		(path "/7ffc0397-7a61-4a8a-99ad-b053983961d0")
 		(sheetname "Root")
@@ -3837,6 +3902,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "450-1157-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0369d0c8-c0e4-4d89-a62c-8446b093f764")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f269d018-8791-4474-81ee-c897dd533319")
 		(sheetname "Root")
 		(sheetfile "VersaTermMinus.kicad_sch")
@@ -4162,6 +4240,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8992e579-0587-43d3-ae72-cc296ab7b61c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c8a216c-c931-4453-b58a-f43e8c960b08")
 			(effects
 				(font
 					(size 1 1)
@@ -8733,6 +8824,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5dc8caf-74de-421d-9bae-7f51279a1114")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/15803b99-e04a-4f4b-8971-c632a2a54557")
 		(sheetname "Root")
@@ -8918,7 +9022,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002AK"
 			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(uuid "f22a55e8-8042-4a42-82d9-348c2fe969ba")
@@ -9195,7 +9299,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002AK"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "322144b7-a204-44f7-9387-3a936df90962")
@@ -9726,6 +9830,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "L77HDE15SD1CH4FVGA-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d705925-e87d-42be-a7f6-d4717660536f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10346,6 +10463,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "450-1157-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94a894dc-1ca8-48fc-b22f-6773a282f711")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11982,6 +12112,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "641-1762-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7719827b-2d91-48b8-8ae9-42407a4a59f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5f79fb23-ac44-4f4d-93f4-49b9b4e7858f")
 		(sheetname "Root")
@@ -12261,6 +12404,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "732-5960-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6de54ecd-d1fc-4850-8d67-3ba3489282e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12933,7 +13089,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002AK"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "affb5b46-b05e-4188-aff4-c27da65d4af6")
@@ -14584,6 +14740,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac32d11a-e653-4e15-8452-425730838915")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/7d1c900a-5fe2-444c-bcd9-e49e915eb1fe")
 		(sheetname "Root")
@@ -15189,7 +15358,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2N7002AK"
 			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(uuid "aff3e9d8-6430-4ff4-8963-510d84c215d2")
@@ -15510,6 +15679,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "CKN9559-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e31a0789-b790-43f8-9f9e-f30adaec061d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16390,6 +16572,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "732-5960-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28475b31-8fd4-4a0a-bf72-62f80936879d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
