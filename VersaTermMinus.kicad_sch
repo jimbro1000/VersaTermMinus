@@ -6229,6 +6229,12 @@
 		(uuid "1f98d262-a731-4118-ac1b-2b3d5f3a07a3")
 	)
 	(junction
+		(at 259.08 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fac452b-34a7-45df-b398-8a4790c0bc09")
+	)
+	(junction
 		(at 77.47 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6660,6 +6666,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 133.35) (xy 259.08 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9ca865-5094-4190-905e-7ed26bfa1bee")
+	)
+	(wire
+		(pts
 			(xy 48.26 157.48) (xy 48.26 134.62)
 		)
 		(stroke
@@ -6750,6 +6766,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 140.97) (xy 259.08 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30dbc185-b4b0-4490-be38-688a15632ed8")
+	)
+	(wire
+		(pts
 			(xy 228.6 41.91) (xy 234.95 41.91)
 		)
 		(stroke
@@ -6810,7 +6836,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 138.43) (xy 252.73 140.97)
+			(xy 252.73 133.35) (xy 252.73 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6957,6 +6983,16 @@
 			(type default)
 		)
 		(uuid "5b2a647f-2662-40a1-9c12-b1ddc6d8e3b8")
+	)
+	(wire
+		(pts
+			(xy 255.27 138.43) (xy 259.08 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d20ce61-6b55-4fac-b17f-1257319d9b84")
 	)
 	(wire
 		(pts
@@ -7220,16 +7256,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 140.97) (xy 255.27 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a10163d2-e804-4a8e-b18b-716b4bc160de")
-	)
-	(wire
-		(pts
 			(xy 233.68 44.45) (xy 240.03 44.45)
 		)
 		(stroke
@@ -7307,6 +7333,16 @@
 			(type default)
 		)
 		(uuid "a894d88d-7a19-4ebe-9333-624de028a5b9")
+	)
+	(wire
+		(pts
+			(xy 255.27 140.97) (xy 259.08 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a950f06d-a9ed-4243-a61a-4703c0e725a4")
 	)
 	(wire
 		(pts
@@ -7410,6 +7446,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 138.43) (xy 255.27 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65a81a6-7197-4fec-99ba-1bcea1046049")
+	)
+	(wire
+		(pts
 			(xy 240.03 27.94) (xy 251.46 27.94)
 		)
 		(stroke
@@ -7447,16 +7493,6 @@
 			(type default)
 		)
 		(uuid "cd489c23-8c57-418c-a080-091ce97cb6ee")
-	)
-	(wire
-		(pts
-			(xy 259.08 138.43) (xy 252.73 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd7d037a-1696-4dc0-aea9-45bfb29cd83b")
 	)
 	(wire
 		(pts
@@ -7530,16 +7566,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 140.97) (xy 255.27 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e05cf15a-506d-419f-a127-d840dc317878")
-	)
-	(wire
-		(pts
 			(xy 243.84 38.1) (xy 243.84 41.91)
 		)
 		(stroke
@@ -7547,16 +7573,6 @@
 			(type default)
 		)
 		(uuid "e1d3b3d1-82bb-4199-ae1b-5991cff45e56")
-	)
-	(wire
-		(pts
-			(xy 254 133.35) (xy 259.08 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e423a679-3f1c-4461-9c19-168c28bb343c")
 	)
 	(wire
 		(pts
@@ -7570,7 +7586,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 146.05) (xy 254 146.05)
+			(xy 248.92 146.05) (xy 255.27 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7650,7 +7666,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 146.05) (xy 254 133.35)
+			(xy 255.27 146.05) (xy 255.27 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9519,15 +9535,6 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "4816P-1-271LFCT-ND"
-			(at 71.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "10"
 			(uuid "60061152-e96e-4355-a908-83312541e620")
 		)
@@ -9655,15 +9662,6 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "1N4148WXTPMSCT-ND"
-			(at 43.18 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "24dad608-a880-4777-9795-073266b79a2a")
 		)
@@ -9725,15 +9723,6 @@
 		)
 		(property "Description" "HDMI type A connector"
 			(at 83.82 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "609-4614-1-ND"
-			(at 83.82 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,15 +9987,6 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "732-5960-1-ND"
-			(at 26.67 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "94951507-5604-41f4-96c8-adeb3cc41c0f")
 		)
@@ -10096,15 +10076,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 43.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "1N4148WXTPMSCT-ND"
 			(at 43.18 83.82 0)
 			(effects
 				(font
@@ -10711,15 +10682,6 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "4816P-1-271LFCT-ND"
-			(at 73.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "10"
 			(uuid "60061152-e96e-4355-a908-83312541e621")
 		)
@@ -10795,7 +10757,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002AK"
+		(property "Value" "2N7002"
 			(at 59.69 179.07 90)
 			(effects
 				(font
@@ -11197,16 +11159,16 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 115.57 171.45 90)
+		(at 115.57 171.45 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2f7ffa0f-1955-4d20-be1d-0dca20be1a90")
 		(property "Reference" "BZ1"
-			(at 119.38 169.4248 90)
+			(at 111.76 169.4248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11215,7 +11177,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 119.38 171.9648 90)
+			(at 111.76 171.9648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11224,7 +11186,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
-			(at 113.03 172.085 90)
+			(at 118.11 172.085 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11233,7 +11195,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 172.085 90)
+			(at 118.11 172.085 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11378,15 +11340,6 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 161.29 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "450-1157-ND"
 			(at 161.29 21.59 0)
 			(effects
 				(font
@@ -11629,7 +11582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002AK"
+		(property "Value" "2N7002"
 			(at 45.72 140.9699 0)
 			(effects
 				(font
@@ -11886,15 +11839,6 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "4816P-1-271LFCT-ND"
-			(at 66.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "10"
 			(uuid "60061152-e96e-4355-a908-83312541e622")
 		)
@@ -12007,15 +11951,6 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "4816P-1-271LFCT-ND"
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "10"
 			(uuid "60061152-e96e-4355-a908-83312541e623")
 		)
@@ -12091,7 +12026,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002AK"
+		(property "Value" "2N7002"
 			(at 69.85 173.99 90)
 			(effects
 				(font
@@ -12345,15 +12280,6 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "4816P-1-271LFCT-ND"
-			(at 76.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "10"
 			(uuid "60061152-e96e-4355-a908-83312541e624")
 		)
@@ -12456,15 +12382,6 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 39.37 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "641-1762-1-ND"
 			(at 39.37 24.13 0)
 			(effects
 				(font
@@ -13276,15 +13193,6 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "1N4148WXTPMSCT-ND"
-			(at 43.18 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "65b4f51a-74c5-40ec-82ac-deb83e3a7450")
 		)
@@ -13347,15 +13255,6 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "4816P-1-271LFCT-ND"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -13468,15 +13367,6 @@
 			)
 		)
 		(property "Description" "9-pin female receptacle socket D-SUB connector"
-			(at 266.7 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "AE10968-ND"
 			(at 266.7 138.43 0)
 			(effects
 				(font
@@ -13932,15 +13822,6 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "1N4148WXTPMSCT-ND"
-			(at 43.18 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "48fe102c-9d6f-4e0f-8328-eee183dae109")
 		)
@@ -14041,7 +13922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002AK"
+		(property "Value" "2N7002"
 			(at 73.66 147.3201 0)
 			(effects
 				(font
@@ -14235,15 +14116,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 115.57 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "1N4148WXTPMSCT-ND"
 			(at 115.57 176.53 0)
 			(effects
 				(font
@@ -14522,15 +14394,6 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "L77HDE15SD1CH4FVGA-ND"
-			(at 259.08 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "13"
 			(uuid "711b819f-01fd-4475-aca7-4b580cb18496")
 		)
@@ -14632,15 +14495,6 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
-			(at 78.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "4816P-1-271LFCT-ND"
 			(at 78.74 45.72 0)
 			(effects
 				(font
@@ -14751,15 +14605,6 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 110.49 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "CKN9559-ND"
 			(at 110.49 149.86 0)
 			(effects
 				(font
@@ -15036,15 +14881,6 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
-			(at 81.28 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "4816P-1-271LFCT-ND"
 			(at 81.28 45.72 0)
 			(effects
 				(font
@@ -15775,13 +15611,13 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7000")
-		(at 104.14 176.53 90)
+		(at 104.14 176.53 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1d88ee1-b04d-4b7d-af29-76270dd129b2")
 		(property "Reference" "Q3"
 			(at 104.14 167.64 90)
@@ -15791,7 +15627,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002AK"
+		(property "Value" "2N7002"
 			(at 104.14 170.18 90)
 			(effects
 				(font
@@ -15800,7 +15636,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 106.045 171.45 0)
+			(at 102.235 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15811,7 +15647,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 107.95 171.45 0)
+			(at 100.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16008,7 +15844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002AK"
+		(property "Value" "2N7002"
 			(at 62.23 138.4301 0)
 			(effects
 				(font
@@ -16262,15 +16098,6 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "732-5960-1-ND"
-			(at 26.67 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "724444ac-a54a-49c6-8381-445c7372978c")
 		)
@@ -16410,15 +16237,6 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 198.12 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "450-1157-ND"
 			(at 198.12 21.59 0)
 			(effects
 				(font
