@@ -71,3 +71,16 @@ the PCB above the right hand edge of the DE9
 and below the visible traces on the top of the
 board. This allows shorter, more direct
 connections to be made.
+
+A second fault exists within the buzzer circuit.
+The polarity marking for the buzzer is reversed
+(just fit the buzzer back to front). The transistor
+switching the buzzer is also incorrect. To fix this
+the transistor needs rotating around the top left 
+pad (pin 2) such that the top right pin (1) sits on
+the bottom pad. A wire needs to be run from the now
+loose pin of the transistor (pin 3) to the negative
+side of the buzzer, the vacant transistor pad or
+the top pad of D1. The trace running from transistor
+to the buzzer could be exposed to allow a solder 
+bridge to be created
