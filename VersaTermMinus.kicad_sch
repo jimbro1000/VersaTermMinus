@@ -9517,7 +9517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf"
 			(at 71.12 45.72 0)
 			(effects
 				(font
@@ -9527,6 +9527,15 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
 			(at 71.12 45.72 0)
 			(effects
 				(font
@@ -9662,6 +9671,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 43.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24dad608-a880-4777-9795-073266b79a2a")
 		)
@@ -9723,6 +9741,15 @@
 		)
 		(property "Description" "HDMI type A connector"
 			(at 83.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "609-4614-1-ND"
+			(at 83.82 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9969,7 +9996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/629105150521.pdf"
 			(at 30.48 64.77 0)
 			(effects
 				(font
@@ -9979,6 +10006,15 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "732-5960-1-ND"
 			(at 26.67 63.5 0)
 			(effects
 				(font
@@ -10076,6 +10112,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 43.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
 			(at 43.18 83.82 0)
 			(effects
 				(font
@@ -10664,7 +10709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf"
 			(at 73.66 45.72 0)
 			(effects
 				(font
@@ -10674,6 +10719,15 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
 			(at 73.66 45.72 0)
 			(effects
 				(font
@@ -11330,7 +11384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1457/ksa_ksl.pdf"
 			(at 161.29 16.51 0)
 			(effects
 				(font
@@ -11340,6 +11394,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 161.29 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CKN10734-ND"
 			(at 161.29 21.59 0)
 			(effects
 				(font
@@ -11821,7 +11884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf"
 			(at 66.04 45.72 0)
 			(effects
 				(font
@@ -11831,6 +11894,15 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
 			(at 66.04 45.72 0)
 			(effects
 				(font
@@ -11933,7 +12005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf"
 			(at 68.58 45.72 0)
 			(effects
 				(font
@@ -11943,6 +12015,15 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
 			(at 68.58 45.72 0)
 			(effects
 				(font
@@ -12262,7 +12343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf"
 			(at 76.2 45.72 0)
 			(effects
 				(font
@@ -12272,6 +12353,15 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
 			(at 76.2 45.72 0)
 			(effects
 				(font
@@ -12382,6 +12472,15 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
+			(at 39.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "641-1762-1-ND"
 			(at 39.37 24.13 0)
 			(effects
 				(font
@@ -12784,7 +12883,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002AK"
+		(property "Value" "2N7002"
 			(at 31.75 152.3999 0)
 			(effects
 				(font
@@ -13193,6 +13292,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 43.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65b4f51a-74c5-40ec-82ac-deb83e3a7450")
 		)
@@ -13245,7 +13353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -13255,6 +13363,15 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -13367,6 +13484,15 @@
 			)
 		)
 		(property "Description" "9-pin female receptacle socket D-SUB connector"
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "AE10968-ND"
 			(at 266.7 138.43 0)
 			(effects
 				(font
@@ -13822,6 +13948,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "48fe102c-9d6f-4e0f-8328-eee183dae109")
 		)
@@ -14124,6 +14259,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 115.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4518f333-ed41-401d-9266-e30bbec329e0")
 		)
@@ -14394,6 +14538,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "L77HDE15SD1CH4FVGA-ND"
+			(at 259.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "711b819f-01fd-4475-aca7-4b580cb18496")
 		)
@@ -14485,7 +14638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf"
 			(at 78.74 45.72 0)
 			(effects
 				(font
@@ -14495,6 +14648,15 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
 			(at 78.74 45.72 0)
 			(effects
 				(font
@@ -14595,7 +14757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1428/os.pdf"
 			(at 110.49 157.48 0)
 			(effects
 				(font
@@ -14605,6 +14767,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CKN9559-ND"
 			(at 110.49 149.86 0)
 			(effects
 				(font
@@ -14871,7 +15042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf"
 			(at 81.28 45.72 0)
 			(effects
 				(font
@@ -14881,6 +15052,15 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
 			(at 81.28 45.72 0)
 			(effects
 				(font
@@ -16080,7 +16260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/629105150521.pdf"
 			(at 30.48 30.48 0)
 			(effects
 				(font
@@ -16090,6 +16270,15 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 26.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "732-5960-1-ND"
 			(at 26.67 29.21 0)
 			(effects
 				(font
@@ -16227,7 +16416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1457/ksa_ksl.pdf"
 			(at 198.12 16.51 0)
 			(effects
 				(font
@@ -16237,6 +16426,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 198.12 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CKN10734-ND"
 			(at 198.12 21.59 0)
 			(effects
 				(font

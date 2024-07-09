@@ -980,6 +980,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c1149cc-b8a4-480b-ab00-ccfea524ea70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/9dc630fd-e286-45ed-a220-f2fdb59a36c3")
 		(sheetname "Root")
@@ -1643,6 +1656,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "609-4614-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37c58af7-a037-4a77-b10b-8ce58fd29de0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "HDMI*A*")
 		(path "/08ecca80-0a7a-4415-bb52-36d5bdee4743")
 		(sheetname "Root")
@@ -2172,6 +2198,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a37b625-9877-4343-921c-4f29d739deef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/8e13d856-b2e5-4c02-9e05-8a400d5d585c")
 		(sheetname "Root")
@@ -2661,7 +2700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2687,8 +2726,21 @@
 				)
 			)
 		)
+		(property "DigiKey" "4816P-1-271LFCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d031781-b907-4f41-9f0d-6907a9632ee8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex*")
-		(path "/c5ec1544-0d41-437a-abdb-cbe9513f54ae")
+		(path "/7ff3366d-b042-4888-a6a3-86a39dc9853b")
 		(sheetname "Root")
 		(sheetfile "VersaTermMinus.kicad_sch")
 		(attr smd)
@@ -3292,6 +3344,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "AE10968-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f87f95b-e25e-410e-afb9-54a4cf3c90ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DSUB*Female*")
 		(path "/7ffc0397-7a61-4a8a-99ad-b053983961d0")
 		(sheetname "Root")
@@ -3838,7 +3903,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ckswitches.com/media/1457/ksa_ksl.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3860,6 +3925,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "CKN10734-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03e3b776-f136-4542-8b77-abcc8d22457c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4192,6 +4270,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8992e579-0587-43d3-ae72-cc296ab7b61c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f083b7fc-b53d-49a2-9381-6d64ed916805")
 			(effects
 				(font
 					(size 1 1)
@@ -8787,6 +8878,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55944790-e012-4f92-a8a1-3448094f8048")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/15803b99-e04a-4f4b-8971-c632a2a54557")
 		(sheetname "Root")
@@ -9795,6 +9899,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "L77HDE15SD1CH4FVGA-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba8cce72-3562-4827-86e5-269b4649e953")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DSUB*Female*")
 		(path "/b80fa952-15d0-485f-9311-acf47a0bf087")
 		(sheetname "Root")
@@ -10392,7 +10509,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ckswitches.com/media/1457/ksa_ksl.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10414,6 +10531,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "CKN10734-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6dd5a70-f579-45b5-9cae-72eb0c9c5a0b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11103,7 +11233,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002AK"
+		(property "Value" "2N7002"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "92a2837c-756c-4177-95a0-c044497556fe")
@@ -12072,6 +12202,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "641-1762-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46ea1580-e7b2-491f-9ef6-7199b86a4a39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5f79fb23-ac44-4f4d-93f4-49b9b4e7858f")
 		(sheetname "Root")
@@ -12331,7 +12474,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/629105150521.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12353,6 +12496,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "732-5960-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4d66264-fc37-485d-b8e4-230ad102262f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14701,6 +14857,19 @@
 				)
 			)
 		)
+		(property "DigiKey" "1N4148WXTPMSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a90c734-752f-4510-89ab-3f1630abec54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/7d1c900a-5fe2-444c-bcd9-e49e915eb1fe")
 		(sheetname "Root")
@@ -15616,7 +15785,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ckswitches.com/media/1428/os.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15638,6 +15807,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "CKN9559-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2ec4637-ecec-4b7f-8864-95c7ab226e83")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16508,7 +16690,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/629105150521.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16530,6 +16712,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "732-5960-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "baba606c-fdb5-46f9-95a4-39b3caae4a7b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
