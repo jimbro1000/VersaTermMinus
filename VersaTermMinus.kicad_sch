@@ -5236,6 +5236,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -5554,7 +5636,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:2N7000"
+		(symbol "Transistor_FET:2N7002"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5568,7 +5650,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7000"
+			(property "Value" "2N7002"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -5577,7 +5659,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -5588,7 +5670,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -5598,7 +5680,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5607,7 +5689,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET Logic-Level"
+			(property "ki_keywords" "N-Channel Switching MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5616,7 +5698,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5625,7 +5707,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N7000_0_1"
+			(symbol "2N7002_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -5792,11 +5874,11 @@
 					)
 				)
 			)
-			(symbol "2N7000_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "S"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5811,10 +5893,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6205,6 +6287,12 @@
 		(uuid "0e58cf2d-071a-494b-9c6d-440c7ec63b5a")
 	)
 	(junction
+		(at 27.94 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16c807fe-7b01-45a0-aa1e-e85d54c2c76a")
+	)
+	(junction
 		(at 50.8 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6277,12 +6365,6 @@
 		(uuid "617613b3-98d3-44c0-9bee-f8dd7d4ac447")
 	)
 	(junction
-		(at 27.94 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "664fb45d-406e-4924-b58c-ead90cfcb4b9")
-	)
-	(junction
 		(at 137.16 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6337,12 +6419,6 @@
 		(uuid "9a5a024d-7187-4c13-9949-54c2434399fa")
 	)
 	(junction
-		(at 66.04 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3d200ee-20e8-4d06-8d4d-57bad59c6f6d")
-	)
-	(junction
 		(at 24.13 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6367,6 +6443,18 @@
 		(uuid "b3298bb7-a698-4af4-9b14-4781be4f2946")
 	)
 	(junction
+		(at 66.04 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b944948a-72ca-4438-b844-56fec995a1ad")
+	)
+	(junction
+		(at 41.91 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bec66396-0a1a-4e69-bcbc-5126c15de3c9")
+	)
+	(junction
 		(at 111.76 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6383,12 +6471,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7a7d90c-fd25-450a-a3a3-9e7e8b2a2764")
-	)
-	(junction
-		(at 41.91 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1c66541-e2ee-4d4a-9500-753255508ee8")
 	)
 	(junction
 		(at 52.07 189.23)
@@ -6756,7 +6838,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 38.1) (xy 266.7 38.1)
+			(xy 271.78 38.1) (xy 266.7 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6793,6 +6875,16 @@
 			(type default)
 		)
 		(uuid "35afc483-ac16-48bd-8ae6-0b2e47cd1156")
+	)
+	(wire
+		(pts
+			(xy 45.72 177.8) (xy 64.77 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bbbfc6-d1bb-4952-aaf3-59530e455118")
 	)
 	(wire
 		(pts
@@ -6956,16 +7048,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 41.91) (xy 240.03 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56766785-f7b6-4f71-87f9-c6e26d7a82e9")
-	)
-	(wire
-		(pts
 			(xy 38.1 182.88) (xy 52.07 182.88)
 		)
 		(stroke
@@ -7036,7 +7118,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 38.1) (xy 243.84 38.1)
+			(xy 251.46 38.1) (xy 240.03 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7193,16 +7275,6 @@
 			(type default)
 		)
 		(uuid "9bcce5cd-b0a0-4a27-8b7b-21176173845b")
-	)
-	(wire
-		(pts
-			(xy 45.72 177.8) (xy 64.77 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c720abe-22ed-4f00-ab35-30fd966d91da")
 	)
 	(wire
 		(pts
@@ -7566,7 +7638,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 38.1) (xy 243.84 41.91)
+			(xy 240.03 38.1) (xy 240.03 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7713,6 +7785,72 @@
 			(type default)
 		)
 		(uuid "fcead1b2-ccbb-434e-b2af-524a316001f8")
+	)
+	(label "Blue"
+		(at 242.57 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23ab2ef8-903b-45cc-8b4b-5ab9f7319d4f")
+	)
+	(label "Green"
+		(at 242.57 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f0b1484-be10-44da-8172-b1604ce5be35")
+	)
+	(label "Clock"
+		(at 46.99 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf99bf31-6b41-45f2-bd6c-123044125698")
+	)
+	(label "Sync"
+		(at 266.7 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca625e09-4875-46c5-a8ad-79322861a7cb")
+	)
+	(label "Red"
+		(at 242.57 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5f4eea3-82f9-4eba-b5d7-13249952aebb")
+	)
+	(label "Data"
+		(at 46.99 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffe14cfd-c5b8-4be4-9493-a2a6d1604cb3")
 	)
 	(global_label "CK+"
 		(shape output)
@@ -8244,7 +8382,7 @@
 	)
 	(global_label "SYNC"
 		(shape input)
-		(at 273.05 38.1 0)
+		(at 276.86 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8254,7 +8392,7 @@
 		)
 		(uuid "490f0f98-ff83-4739-a6cf-f6ec6f5e3f53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.9338 38.1 0)
+			(at 284.7438 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,6 +9965,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 151.13 172.72 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0900aa0e-f6b7-4728-af09-dcaf66c31ac8")
+		(property "Reference" "H3"
+			(at 153.67 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 153.67 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 151.13 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 151.13 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VersaTermMinus"
+				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 41.91 130.81 0)
 		(unit 1)
@@ -10794,89 +10996,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 59.69 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23724c7b-b478-4a43-873a-af96a3141554")
-		(property "Reference" "Q1"
-			(at 59.69 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 59.69 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 61.595 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 63.5 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 59.69 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "T2N7002AKLMCT-ND"
-			(at 59.69 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "431348e1-2aad-49f4-a3d5-0f8020948345")
-		)
-		(pin "1"
-			(uuid "aa033f86-4da3-4593-b0b0-1b029750fce4")
-		)
-		(pin "2"
-			(uuid "d817c687-197b-4e42-898c-4f3138a65b2c")
-		)
-		(instances
-			(project "VersaTermMinus"
-				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 115.57 152.4 180)
 		(unit 1)
@@ -11212,6 +11331,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 151.13 157.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e91a0d3-4f23-4a3a-90f5-172e619c148c")
+		(property "Reference" "H1"
+			(at 153.67 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 153.67 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 151.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 151.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Buzzer")
 		(at 115.57 171.45 270)
 		(mirror x)
@@ -11283,7 +11466,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 270.51 38.1 90)
+		(at 274.32 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11292,7 +11475,7 @@
 		(fields_autoplaced yes)
 		(uuid "35130ba7-49fb-4191-8357-1a0103985373")
 		(property "Reference" "R21"
-			(at 270.51 33.02 90)
+			(at 274.32 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11300,7 +11483,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 270.51 35.56 90)
+			(at 274.32 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11308,7 +11491,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 270.51 38.1 0)
+			(at 274.32 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11317,7 +11500,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 38.1 0)
+			(at 274.32 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11326,7 +11509,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 270.51 38.1 0)
+			(at 274.32 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11621,91 +11804,6 @@
 			(project "VersaTermMinus"
 				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 39.37 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46c9ef78-b410-4981-8440-3f249f1cdaca")
-		(property "Reference" "Q5"
-			(at 45.72 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 45.72 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 44.45 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 44.45 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 39.37 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "T2N7002AKLMCT-ND"
-			(at 39.37 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9a33df41-1af5-49ff-8de3-ee437dfbb034")
-		)
-		(pin "1"
-			(uuid "ffb3917d-243d-45b4-856a-f0e363dd627c")
-		)
-		(pin "2"
-			(uuid "d1a6d154-33bb-4934-8b3a-7926edfd3c42")
-		)
-		(instances
-			(project "VersaTermMinus"
-				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -12085,89 +12183,6 @@
 				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
 					(reference "RN1")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 69.85 180.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58ac81a6-9d68-418c-b3f5-632b72ae4b8c")
-		(property "Reference" "Q2"
-			(at 69.85 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 69.85 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 71.755 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 73.66 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 69.85 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "T2N7002AKLMCT-ND"
-			(at 69.85 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "594bb49a-0721-4303-ad5a-e63269823952")
-		)
-		(pin "1"
-			(uuid "b6346e91-ab0c-412d-95e6-e7e0aaab5992")
-		)
-		(pin "2"
-			(uuid "6a01857e-7360-4003-870c-3ec0f1372db8")
-		)
-		(instances
-			(project "VersaTermMinus"
-				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
-					(reference "Q2")
-					(unit 1)
 				)
 			)
 		)
@@ -12865,91 +12880,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 25.4 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "694fc27f-24a6-4830-ac19-14073317b6c3")
-		(property "Reference" "Q4"
-			(at 31.75 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 31.75 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 30.48 153.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 30.48 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 25.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "T2N7002AKLMCT-ND"
-			(at 25.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "fc49582b-aba8-4f67-bf0a-6fdf437fefd2")
-		)
-		(pin "1"
-			(uuid "07f0b5a3-af63-40a0-b49e-b008a582cc36")
-		)
-		(pin "2"
-			(uuid "9f3c7fd4-744e-44f8-89da-35d6faeda3ef")
-		)
-		(instances
-			(project "VersaTermMinus"
-				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 231.14 35.56 90)
 		(mirror x)
@@ -13078,6 +13008,156 @@
 			(project "VersaTermMinus"
 				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 69.85 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d1e070c-e86e-40fb-8962-153c5361c5b6")
+		(property "Reference" "Q2"
+			(at 69.85 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 69.85 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 71.755 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 73.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 69.85 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6014a277-3d91-4a13-8064-b7ce145b1991")
+		)
+		(pin "2"
+			(uuid "3bf44600-fc30-4f63-bdd6-e6fc330c4912")
+		)
+		(pin "1"
+			(uuid "91765b82-076e-41a3-bfa1-51d2359c63cd")
+		)
+		(instances
+			(project "VersaTermMinus"
+				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 68.58 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f3f1344-cdf0-4527-9242-d1a53bf6e192")
+		(property "Reference" "Q7"
+			(at 62.23 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 62.23 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 63.5 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 63.5 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "09482688-2ab9-4568-91ab-159aabee1c03")
+		)
+		(pin "2"
+			(uuid "1dc981c0-912b-4901-9959-36a73456810f")
+		)
+		(pin "1"
+			(uuid "a81338d0-e297-4644-9e16-35191f61ab62")
+		)
+		(instances
+			(project "VersaTermMinus"
+				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -13973,6 +14053,230 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 104.14 176.53 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "905e1b90-d815-4880-9c20-f64360eb8cca")
+		(property "Reference" "Q3"
+			(at 104.14 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 104.14 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 102.235 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 100.33 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 104.14 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9db76a71-5a7e-4b71-b550-d5f738fec8cf")
+		)
+		(pin "2"
+			(uuid "94747d0d-2912-4df4-82a3-e25abee9d1b9")
+		)
+		(pin "1"
+			(uuid "950e37a6-bc8c-4d62-b552-14cd302385ac")
+		)
+		(instances
+			(project "VersaTermMinus"
+				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 39.37 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "928ead0e-d53e-45bd-bc56-4e09298b4adc")
+		(property "Reference" "Q5"
+			(at 45.72 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 45.72 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 44.45 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 44.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d9138862-b89e-49d5-bf8a-acd3e5612855")
+		)
+		(pin "2"
+			(uuid "9a2ae245-7485-40ac-96df-2d0488753241")
+		)
+		(pin "1"
+			(uuid "1f4219ef-11b8-4fce-bf6d-f9267d69a2f8")
+		)
+		(instances
+			(project "VersaTermMinus"
+				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 59.69 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95131f23-3f22-43c0-84e2-2fca25d1d1b0")
+		(property "Reference" "Q1"
+			(at 59.69 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 59.69 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 61.595 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 63.5 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 59.69 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "54b50490-56a9-4d0f-afbe-a1f0bde74991")
+		)
+		(pin "2"
+			(uuid "6c1b7ee5-10a6-4d67-9500-802f77ec4a84")
+		)
+		(pin "1"
+			(uuid "06348d91-700e-46b8-9769-45b9ba8992fe")
+		)
+		(instances
+			(project "VersaTermMinus"
+				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 180.34 90)
 		(unit 1)
@@ -14033,91 +14337,6 @@
 			(project "VersaTermMinus"
 				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 80.01 148.59 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "984cdbe7-5c63-4a43-bef0-03dfa57bdd4e")
-		(property "Reference" "Q6"
-			(at 73.66 149.8601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 73.66 147.3201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 74.93 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 74.93 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 80.01 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "T2N7002AKLMCT-ND"
-			(at 80.01 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6d4bc180-895b-4e61-93a8-f3ba37c771ec")
-		)
-		(pin "1"
-			(uuid "15ebe5ce-d6ff-4f97-8484-cb842ed6231f")
-		)
-		(pin "2"
-			(uuid "6cdb3ccc-e302-4e3a-8f42-789883d51aa0")
-		)
-		(instances
-			(project "VersaTermMinus"
-				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -15006,6 +15225,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 151.13 165.1 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3f30718-7e8b-4e12-8958-2b59020abb1e")
+		(property "Reference" "H2"
+			(at 153.67 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 153.67 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 151.13 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 151.13 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VersaTermMinus"
+				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack08_Split")
 		(at 81.28 45.72 0)
 		(unit 8)
@@ -15313,6 +15596,82 @@
 			(project "VersaTermMinus"
 				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 25.4 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cba0a4b4-deb5-41a4-bce2-b1f44177a1ab")
+		(property "Reference" "Q4"
+			(at 31.75 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 31.75 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 30.48 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 30.48 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 25.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cc208388-e35a-4389-88d6-24f8652cefd9")
+		)
+		(pin "2"
+			(uuid "27917ff8-cf31-484d-8675-b2e16ec07ee2")
+		)
+		(pin "1"
+			(uuid "a295198b-d67a-4e43-9ec7-e8c5161317a0")
+		)
+		(instances
+			(project ""
+				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -15790,89 +16149,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 104.14 176.53 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1d88ee1-b04d-4b7d-af29-76270dd129b2")
-		(property "Reference" "Q3"
-			(at 104.14 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 104.14 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 102.235 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 100.33 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 104.14 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "T2N7002AKLMCT-ND"
-			(at 104.14 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8c796942-5a7c-4c32-9481-5906b5973541")
-		)
-		(pin "1"
-			(uuid "664df2ca-720f-4cc1-a752-73b92aacf01b")
-		)
-		(pin "2"
-			(uuid "a98ba315-4f80-4bb2-9692-f420e9614be2")
-		)
-		(instances
-			(project "VersaTermMinus"
-				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 50.8 99.06 0)
 		(unit 1)
@@ -16000,91 +16276,6 @@
 			(project "VersaTermMinus"
 				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 68.58 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6b8f714-809e-4bb6-bc72-5f9b37b26b2c")
-		(property "Reference" "Q7"
-			(at 62.23 140.9701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 62.23 138.4301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 63.5 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 63.5 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 68.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "T2N7002AKLMCT-ND"
-			(at 68.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e1eb187b-4861-429f-a6a7-4202acc92d58")
-		)
-		(pin "1"
-			(uuid "29f49113-09d4-4aa6-94d2-dc0f680abbf9")
-		)
-		(pin "2"
-			(uuid "9309f20b-7743-4fac-8c6a-dcb78dfc5889")
-		)
-		(instances
-			(project "VersaTermMinus"
-				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -16732,6 +16923,82 @@
 			(project "VersaTermMinus"
 				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
 					(reference "CN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 80.01 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f807bdac-cbae-4c83-a3b9-d7d94498be53")
+		(property "Reference" "Q6"
+			(at 73.66 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 73.66 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 74.93 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 74.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 80.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c24dfc33-748c-4256-9280-d0002a4b1cfe")
+		)
+		(pin "2"
+			(uuid "402a86ff-c054-4650-83e4-5800088501a4")
+		)
+		(pin "1"
+			(uuid "8070754f-4c1b-4d0f-9f08-5a8afd6ef1ae")
+		)
+		(instances
+			(project "VersaTermMinus"
+				(path "/6aa9664d-1ced-4a58-b8c7-aff67171855f"
+					(reference "Q6")
 					(unit 1)
 				)
 			)

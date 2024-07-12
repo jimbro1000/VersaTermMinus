@@ -1,4 +1,4 @@
-23597331464878167
+23602495509387886
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -18568,7 +18568,7 @@ KMDGX-6S-N
 
 
 0
-6
+9
 6
 Connector_Molex
 Molex_CLIK-Mate_502382-0270_1x02-1MP_P1.25mm_Vertical
@@ -64385,6 +64385,27 @@ Yellow 5381 Series LED
 0
 2
 2
+Logos
+BF
+
+
+0
+0
+0
+Logos
+mfmi_logo
+
+
+0
+0
+0
+Logos
+tbs_logo
+
+
+0
+0
+0
 MCU_RaspberryPi_and_Boards
 Crystal_SMD_HC49-US
 SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package

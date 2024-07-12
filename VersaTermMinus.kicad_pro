@@ -52,7 +52,12 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|66025000|66500000|242f5f0f-4777-449a-bb90-ec1fa9615803|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|109130000|85725000|2dc99491-8722-43f1-8704-c5e66e3f8947|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|114100000|53684500|98ba7678-17c9-46a7-bcef-ecbb05fff350|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|92752922|95787922|851d84b3-d5e9-4e94-a155-4d64980752f8|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -73,6 +78,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -476,6 +482,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
