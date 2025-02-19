@@ -3,4 +3,5 @@
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
   (lib (name "Connector_Mini_DIN")(type "KiCad")(uri "${KIPRJMOD}/Connector_Mini_DIN.pretty")(options "")(descr ""))
   (lib (name "Logos")(type "KiCad")(uri "${KIPRJMOD}/Logos.pretty")(options "")(descr ""))
+  (lib (name "Connector_USBA_Molex")(type "KiCad")(uri "${KIPRJMOD}/Connector_USBA_Molex.pretty")(options "")(descr ""))
 )
