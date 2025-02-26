@@ -7408,7 +7408,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 24.13) (xy 34.29 24.13)
+			(xy 38.1 24.13) (xy 34.29 24.13)
 		)
 		(stroke
 			(width 0)
@@ -7895,16 +7895,6 @@
 			(type default)
 		)
 		(uuid "972e3186-e15a-4c66-9b6a-6b180bc41593")
-	)
-	(wire
-		(pts
-			(xy 41.91 24.13) (xy 43.18 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ede33e-9550-4ad6-afc7-8f23d5d7f066")
 	)
 	(wire
 		(pts
@@ -8447,7 +8437,6 @@
 	)
 	(label "Blue"
 		(at 242.57 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8458,7 +8447,6 @@
 	)
 	(label "Green"
 		(at 242.57 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8467,9 +8455,18 @@
 		)
 		(uuid "6f0b1484-be10-44da-8172-b1604ce5be35")
 	)
+	(label "VBUS"
+		(at 34.29 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "730ab4d9-a124-4a62-b06a-72107999a58e")
+	)
 	(label "Clock"
 		(at 46.99 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8480,7 +8477,6 @@
 	)
 	(label "Sync"
 		(at 266.7 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8491,7 +8487,6 @@
 	)
 	(label "Red"
 		(at 242.57 27.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8502,7 +8497,6 @@
 	)
 	(label "Data"
 		(at 46.99 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13014,7 +13008,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 39.37 24.13 180)
+		(at 40.64 24.13 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13023,7 +13017,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f79fb23-ac44-4f4d-93f4-49b9b4e7858f")
 		(property "Reference" "D2"
-			(at 39.624 17.78 0)
+			(at 40.894 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13031,7 +13025,7 @@
 			)
 		)
 		(property "Value" "DBA140SL-HF"
-			(at 39.624 20.32 0)
+			(at 40.894 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13039,7 +13033,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 39.37 24.13 90)
+			(at 40.64 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13048,7 +13042,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 24.13 90)
+			(at 40.64 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13057,7 +13051,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 39.37 24.13 0)
+			(at 40.64 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13066,7 +13060,7 @@
 			)
 		)
 		(property "DigiKey" "641-1762-1-ND"
-			(at 39.37 24.13 0)
+			(at 40.64 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
