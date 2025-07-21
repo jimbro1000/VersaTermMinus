@@ -5,6 +5,9 @@ project [github.com/dhansel/VersaTerm](https://github.com/dhansel/VersaTerm)
 
 ![render of VersaTermMinus PCB](VersaTermMinus.png)
 
+You can order PCBs for this project direct from PCBWay's shared projects
+(https://www.pcbway.com/project/shareproject/VersaTermMinus_d8ad71ad.html)
+
 ## Changes to the Original Design
 
 There are four significant changes to the board:
